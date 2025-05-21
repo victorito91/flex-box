@@ -101,3 +101,28 @@ button {
     text-align:center;
     color:gray;
 }
+
+.quote-bar {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width:850px;
+    padding:80px;
+}
+
+.quote {
+    color:#1F2937;
+    font-style:italic;
+    font-size:36px;
+    font-weight: 100;
+}
+
+.credits {
+    font-weight: 900;
+    align-self: flex-end;
+}
