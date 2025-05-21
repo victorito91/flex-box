@@ -2,10 +2,9 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.header {
+.top-bar {
     display:flex;
     justify-content: space-around;
-    background-color: #1F2937;
     color:#F9FAF8;
     padding:32px;
     font-size: 24px;
@@ -21,4 +20,48 @@ a {
     display:flex;
     justify-content: space-around;
     gap:16px;
+}
+
+.header-content {
+    display: flex;
+    margin:auto;
+    max-width: 1100px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    padding:8px;
+    margin:36px;
+}
+
+.header-right {
+    padding: 8px;
+}
+
+.header {
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.title {
+    color:#F9FAF8;
+    font-size: 48px;
+}
+
+.header-left p {
+    color:#E5E7EB;
+}
+
+.header-right img {
+    max-width:520px;
+    margin:36px;
+}
+
+button {
+    border-radius: 10px;
+    width:130px;
+    padding: 6px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
