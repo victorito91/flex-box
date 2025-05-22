@@ -58,7 +58,7 @@ a {
     margin:36px;
 }
 
-button {
+.header-left button {
     border-radius: 10px;
     width:130px;
     padding: 6px;
@@ -125,4 +125,36 @@ button {
 .credits {
     font-weight: 900;
     align-self: flex-end;
+}
+
+.action-box {
+    display: flex;
+    width:1020px;
+    background-color:#3882F6;
+    justify-content: space-around;
+    padding:32px;
+    margin:64px auto 64px auto;
+    border-radius:8px;
+}
+
+.action-left {
+    display:flex;
+    flex-direction: column;
+}
+
+.action-header {
+    font-size: 24px;
+    color:white;
+}
+
+.action-text {
+    color:#E5E7EB;
+}
+
+.action-button {
+    background-color: #3882F6;
+    border:2px solid white;
+    border-radius: 12px;
+    color:white;
+    padding:0px 24px 0px 24px;
 }
